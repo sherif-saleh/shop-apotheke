@@ -4,8 +4,6 @@ import {IconButton} from '@mui/material'
 import StarIcon from '@mui/icons-material/Star'
 import StarBorderIcon from '@mui/icons-material/StarBorder'
 
-
-
 type StarringButtonProps = {
 	isStarred: boolean
 	repoId: TRepo['id']
